@@ -94,7 +94,6 @@ class App extends Component {
           <h1>Create Account</h1>
           <form onSubmit={this.handleSubmit} noValidate>
             <div className="firstName">
-              <label htmlFor="firstName">First Name</label>
               <input
                 className={formErrors.firstName.length > 0 ? "error" : null}
                 placeholder="First Name"
@@ -108,7 +107,6 @@ class App extends Component {
               )}
             </div>
             <div className="lastName">
-              <label htmlFor="lastName">Last Name</label>
               <input
                 className={formErrors.lastName.length > 0 ? "error" : null}
                 placeholder="Last Name"
@@ -122,7 +120,6 @@ class App extends Component {
               )}
             </div>
             <div className="email">
-              <label htmlFor="email">Email</label>
               <input
                 className={formErrors.email.length > 0 ? "error" : null}
                 placeholder="Email"
@@ -136,7 +133,6 @@ class App extends Component {
               )}
             </div>
             <div className="password">
-              <label htmlFor="password">Password</label>
               <input
                 className={formErrors.password.length > 0 ? "error" : null}
                 placeholder="Password"
