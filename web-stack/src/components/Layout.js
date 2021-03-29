@@ -1,14 +1,14 @@
 import React from "react"
 
-import Footer from "./footer"
-import Navbar from ".Navbar"
+import Footer from "./Footer"
+import Navbar from "./Navbar"
 
-export default function Layout (props){
+export default function Layout ({ children }){
     return (
-        <div>
-            <div>
+        <div className="layout">
+            <div className="content">
                 <Navbar />
-                {props.children}
+                { children }
             </div>
             <Footer />
         </div>
