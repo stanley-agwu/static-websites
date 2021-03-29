@@ -15,6 +15,7 @@ export default function Home() {
             <p>Developer and Human Experience Enhancer based in Oslo</p>
             <Link to="/games" className={styles.btn}>View Games Portfolio</Link>
         </div>
+        <img src="/kyle-nieber.jpg" alt="site cover" style={{ maxWidth: "100%"}}/>
       </section>
     </Layout>
     )
