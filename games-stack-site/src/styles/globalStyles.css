@@ -17,6 +17,7 @@ body {
 p {
   font-size: 16px;
   line-height: 1.5em;
+  /* color: #404040; */
 }
 
 /* layout & nav */
@@ -39,7 +40,7 @@ nav .links {
   display: inline-block;
   text-align: right;
 }
-nav a {
+nav .links a {
   display: inline-block;
   margin-left: 20px;
   font-weight: 500;
@@ -54,5 +55,4 @@ footer{
 }
 footer p{
   text-align: center;
-  color: #404040;
 }

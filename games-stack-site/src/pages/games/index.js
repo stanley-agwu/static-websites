@@ -1,10 +1,11 @@
 import React from 'react'
+import styles from "../../styles/games.module.css"
 
 export default function Games() {
     return (
-        <div>
+        <div className={styles.portfolio}>
             <h2>Games Portfolio</h2>
-            <p>These are the games we have available!</p>
+            <h3>These are the games we have available!</h3>
         </div>
     )
 }
