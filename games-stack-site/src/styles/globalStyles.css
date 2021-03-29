@@ -5,17 +5,17 @@
   padding: 0;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
-  color: white;
+  color: #404040;
 }
 html, body {
   min-height: 100%;
 }
 body {
-  background: radial-gradient(at top left, rgba(89, 89, 89, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  background: radial-gradient(at top left, rgba(255, 255, 255, 1) 0%, rgba(128, 128, 128, 1) 100%);
   background-repeat: no-repeat;
 }
 p {
-  margin: 16px auto;
+  font-size: 16px;
   line-height: 1.5em;
 }
 
@@ -23,11 +23,17 @@ p {
 .layout {
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content {
+    flex-grow: 1;
 }
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 40px auto;
+  margin: 20px auto 40px;
 }
 nav .links {
   display: inline-block;
@@ -36,15 +42,17 @@ nav .links {
 nav a {
   display: inline-block;
   margin-left: 20px;
-  font-weight: 400;
+  font-weight: 500;
   padding-bottom: 8px;
   border-bottom: 3px solid transparent;
 }
 nav a:hover {
   border-color: white;
 }
+footer{
+    margin: 10px auto;
+}
 footer p{
   text-align: center;
-  color: #bbb;
-  margin: 40px auto;
+  color: #404040;
 }

@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 
 export default function Footer() {
     return (
-        <div>
-            <p>Copy right 2021 &: <Link to="/">5 Stack Games</Link></p>
-        </div>
+        <footer>
+            <p>Copy right 2021 &copy; <Link to="/">5 Stack Games</Link></p>
+        </footer>
     )
 }
