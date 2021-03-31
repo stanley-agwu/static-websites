@@ -16,7 +16,7 @@ export default function Games({ data }) {
                     {portfolios.map(portfolio => {
                         return (
                             <Link to={`/markdowns/${portfolio.frontmatter.slug}`} key={portfolio.id} >
-                            <div className={styles.markdown}>
+                            <div>
                                 <Img fluid={portfolio.frontmatter.thumb.childImageSharp.fluid} />
                                 <h3>{portfolio.frontmatter.title}</h3>
                                 <p>{portfolio.frontmatter.stack}</p>
