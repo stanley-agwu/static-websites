@@ -5,7 +5,8 @@ import * as styles from "../../styles/games.module.css"
 
 export default function Games({ data }) {
     console.log(data)
-    const portfolios = data.allMarkdownRemark.nodes
+    const portfolios = data.gamesPortfolio.nodes 
+    const contactEmail = data.contact.siteMetadata.contact 
     return (
         <Layout>
             <div className={styles.portfolio}>
@@ -19,12 +20,11 @@ export default function Games({ data }) {
                                 <h3>{portfolio.frontmatter.title}</h3>
                                 <p>{portfolio.frontmatter.stack}</p>
                             </div>
-                        </Link>
+                            </Link>
                         )
-                        
                     })}
-                    
                 </div>
+                <p>For more enquires, reach me at: { contactEmail } for more information.</p>
             </div>
         </Layout>
     )
@@ -32,7 +32,7 @@ export default function Games({ data }) {
 
 export const query = graphql`
     query portfolioInfo {
-        allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
+        gamesPortfolio: allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
             nodes {
                 frontmatter {
                     slug
@@ -40,6 +40,11 @@ export const query = graphql`
                     title
                 }
                 id
+            }
+        }
+        contact: site(siteMetadata: {}) {
+            siteMetadata {
+                contact
             }
         }
     }
