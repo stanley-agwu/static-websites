@@ -2,6 +2,7 @@
 title: Strategy Games
 stack: Next, SCSS, JQuery
 slug: strategy-games
+date: 2021-01-15T00:00:00+00:00
 ---
 
 **Even the worst thing we can do here is good.** You don't have to spend all your time thinking about what you're doing, you just let it happen. At home you have unlimited time. You need the dark in order to show the light. Follow the lay of the land. It's most important. Everything is happy if you choose to make it that way. It's important to me that you're happy. With practice comes confidence.

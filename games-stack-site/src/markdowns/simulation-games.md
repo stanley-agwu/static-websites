@@ -2,6 +2,7 @@
 title: Simulation Games
 stack: Shopify, Flask, Django
 slug: simulation-games
+date: 2021-01-22T00:00:00+00:00
 ---
 
 **We start with a vision in our heart, and we put it on canvas.** Anyone can paint. I really believe that if you practice enough you could paint the 'Mona Lisa' with a two-inch brush. All you have to learn here is how to have fun. Trees live in your fan brush, but you have to scare them out. For the lack of a better word I call them hangy downs. The man who does the best job is the one who is happy at his job. It all happens automatically.

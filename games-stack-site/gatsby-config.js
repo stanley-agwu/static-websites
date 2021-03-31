@@ -17,7 +17,7 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: "5 Stack Dev",
+    title: "5 Stack Games",
     description: "Web Dev Portfolios",
     copyright: "This website is copyright &copy; 2021"
   }

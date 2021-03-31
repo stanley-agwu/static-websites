@@ -32,16 +32,15 @@ export default function Games({ data }) {
 
 export const query = graphql`
     query portfolioInfo {
-  allMarkdownRemark {
-    nodes {
-      frontmatter {
-        slug
-        stack
-        title
-      }
-      id
+        allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
+            nodes {
+                frontmatter {
+                    slug
+                    stack
+                    title
+                }
+                id
+            }
+        }
     }
-  }
-}
-
 `

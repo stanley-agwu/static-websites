@@ -2,6 +2,7 @@
 title: Action Games
 stack: HTML, CSS, Python
 slug: action-games
+date: 2021-01-01T00:00:00+00:00
 ---
 
 **From all of us here, I want to wish you happy painting** and God bless, my friends. Let's build some happy little clouds up here. Maybe there's a happy little bush that lives right there. This is your creation - and it's just as unique and special as you are. Let's put some happy little bushes on the other side now. If you hypnotize it, it will go away. If you don't think every day is a good day - try missing a few. You'll see. Son of a gun. Every highlight needs it's own personal shadow. You can do anything here - the only pre-requisite is that it makes you happy. It's hard to see things when you're too close. Take a step back and look. We have all at one time or another mixed some mud. A little happy sunlight shining through there. You can bend rivers. But when I get home, the only thing I have power over is the garbage. Just a little indication. See there how easy that is.
