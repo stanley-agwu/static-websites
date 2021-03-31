@@ -25,7 +25,7 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query Image {
-    file(relativePath: {eq: "kyle-nieber.jpg"}) {
+    file(relativePath: {eq: "games-banner.jpg"}) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
