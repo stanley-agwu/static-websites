@@ -2,9 +2,9 @@ import { graphql, Link } from 'gatsby'
 import React from 'react'
 import Layout from '../../components/Layout'
 import * as styles from "../../styles/games.module.css"
+import Img from "gatsby-image"
 
 export default function Games({ data }) {
-    console.log(data)
     const portfolios = data.gamesPortfolio.nodes 
     const contactEmail = data.contact.siteMetadata.contact 
     return (
@@ -17,6 +17,7 @@ export default function Games({ data }) {
                         return (
                             <Link to={`/markdowns/${portfolio.frontmatter.slug}`} key={portfolio.id} >
                             <div className={styles.markdown}>
+                                <Img fluid={portfolio.frontmatter.thumb.childImageSharp.fluid} />
                                 <h3>{portfolio.frontmatter.title}</h3>
                                 <p>{portfolio.frontmatter.stack}</p>
                             </div>
@@ -32,19 +33,28 @@ export default function Games({ data }) {
 
 export const query = graphql`
     query portfolioInfo {
-        gamesPortfolio: allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
+        gamesPortfolio: allMarkdownRemark(
+            sort: {fields: frontmatter___date, order: DESC}
+        ) {
             nodes {
-                frontmatter {
-                    slug
-                    stack
-                    title
+            frontmatter {
+                slug
+                stack
+                title
+                thumb {
+                childImageSharp {
+                    fluid {
+                        ...GatsbyImageSharpFluid  
+                    }
                 }
-                id
+                }
+            }
+            id
             }
         }
         contact: site(siteMetadata: {}) {
             siteMetadata {
-                contact
+            contact
             }
         }
     }
