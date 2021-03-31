@@ -6,5 +6,18 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `notes`,
+        path: `${__dirname}/src/notes/`,
+      },
+    },
+  ],
+  siteMetadata: {
+    title: "5 Stack Dev",
+    description: "Web Dev Portfolios",
+    copyright: "This website is copyright &copy; 2021"
+  }
 }
