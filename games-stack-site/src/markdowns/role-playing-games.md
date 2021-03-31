@@ -3,6 +3,8 @@ title: Role-Playing Games
 stack: Angular, Data Science, PySpark
 slug: role-playing-games
 date: 2021-01-03T00:00:00+00:00
+thumb: ../images/thumbs/role-playing-game.jpg
+featuredImg: ../images/role-playing-game.jpg
 ---
 
 **There comes a nice little fluffer.** This is a fantastic little painting. If you hypnotize it, it will go away. Isn't that fantastic? You can just push a little tree out of your brush like that. Now, we're going to fluff this cloud. Working it up and down, back and forth. Nothing wrong with washing your brush. And I know you're saying, 'Oh Bob, you've done it this time.' And you may be right.

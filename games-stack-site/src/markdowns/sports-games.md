@@ -3,6 +3,8 @@ title: Sport Games
 stack: JavaScript, React, Gatsby
 slug: sports-games
 date: 2021-02-02T00:00:00+00:00
+thumb: ../images/thumbs/sports-game.jpg
+featuredImg: ../images/sports-game.jpg
 ---
 
 **If we're gonna walk though the woods**, we need a little path. You can't make a mistake. Anything that happens you can learn to use - and make something beautiful out of it. Anyone can paint. I want everbody to be happy. That's what it's all about. Follow the lay of the land. It's most important. I thought today we would make a happy little stream that's just running through the woods here. You've got to learn to fight the temptation to resist these things. Just let them happen. This is the fun part

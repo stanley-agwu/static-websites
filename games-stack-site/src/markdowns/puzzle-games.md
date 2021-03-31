@@ -3,6 +3,8 @@ title: Puzzle Games
 stack: Shopify, Flask, Django
 slug: puzzle-games
 date: 2021-01-03T00:00:00+00:00
+thumb: ../images/thumbs/puzzle-game.jpg
+featuredImg: ../images/featured/puzzle-game.jpg
 ---
 
 **Let's put some happy little bushes on the other side now.** Play with the angles. You have to make these big decisions. Little trees and bushes grow however makes them happy. Happy painting, God bless. Let's make a happy little mountain now. It's all a game of angles. A happy cloud.
