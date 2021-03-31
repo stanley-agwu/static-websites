@@ -11,9 +11,9 @@ export default function gameDetails() {
                 <h2>title</h2>
                 <h3>stack</h3>
                 <div className={styles.featured}>
-                    <Img fluid={} />
+                    {/* <Img fluid={} /> */}
                 </div>
-                <div dangerouslySetInnerHTML={} />
+                {/* <div dangerouslySetInnerHTML={} /> */}
             </div>   
         </Layout>
     )
