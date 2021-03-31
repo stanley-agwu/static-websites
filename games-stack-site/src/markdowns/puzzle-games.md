@@ -1,6 +1,6 @@
 ---
 title: Puzzle Games
-stack: JavaScript, React, Gatsby
+stack: Shopify, Flask, Django
 slug: puzzle-games
 ---
 
