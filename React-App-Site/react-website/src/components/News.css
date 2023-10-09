@@ -1,0 +1,24 @@
+.header-image{
+  width: 80vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background: #cccccc;
+  padding:10px;
+}
+.sidebar-section-image{
+  width: 150px;
+  height: auto;
+  padding:10px;
+}
+.news-title{
+  margin: 0 1rem;
+  padding: 0.5rem;
+}
+.main-section Img{
+  width:100px;
+  height:auto;
+}
+.news-title{
+  font-size: 4rem;
+}
